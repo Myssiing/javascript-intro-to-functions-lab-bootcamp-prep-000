@@ -25,19 +25,3 @@ function logShout(spy) {
 function logWhisper(spy) {
   console.log("hello")
 }
-
-function sayHiToGrandma(string) {
-  console.log("hello")
-  //console.log("HELLO")
-  //console.log("I love you, Grandma.")
-
-  if("hello") {
-    return "I can\'t hear you!"
-}
-}
-
-function sayHiToGrandma(string) {
-  console.log("HELLO")
-  if ("HELLO") {
-    return "YES INDEED!"
-  }
