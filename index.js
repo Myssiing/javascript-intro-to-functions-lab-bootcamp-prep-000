@@ -26,19 +26,14 @@ function logWhisper(spy) {
   console.log("hello")
 }
 
-function sayHiToGrandma(string) {
-  switch (string.type)
-  {
-    case 'hello':
-     return "I can\'t hear you!";
-
-    case 'HELLO':
-     return "YES INDEED!";
-
-    case 'I love you, Grandma.':
-     return "I love you, too.";
-
-    default:
-     return {};
+function sayHiToGrandma(whisper) {
+  return "I can\'t hear you!"
 }
+
+function sayHiToGrandma(shout) {
+  return "YES INDEED!"
+}
+
+function sayHiTroGrandma("I love you, Grandma.") {
+  return "I love you, too."
 }
