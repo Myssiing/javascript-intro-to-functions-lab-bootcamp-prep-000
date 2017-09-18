@@ -28,7 +28,7 @@ function logWhisper(spy) {
 
 function sayHiToGrandma(string) {
   console.log("hello")
-  if("hello") {
+  if(uppercase) {
     return "I can\'t hear you!"
 }
 }
