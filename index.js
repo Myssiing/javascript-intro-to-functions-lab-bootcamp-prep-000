@@ -29,13 +29,13 @@ function logWhisper(spy) {
 function sayHiToGrandma(string) {
   switch (string.type)
   {
-    case {'hello'}:
+    case 'hello':
      return "I can\'t hear you!";
 
-    case {'HELLO'}:
+    case 'HELLO':
      return "YES INDEED!";
 
-    case {'I love you, Grandma.'}:
+    case 'I love you, Grandma.':
      return "I love you, too.";
 
     default:
