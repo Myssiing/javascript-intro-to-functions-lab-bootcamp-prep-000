@@ -18,12 +18,20 @@ function whisper(string) {
   return string.toLowerCase()
 }
 
+function love(string) {
+  return string()
+}
+
 function logShout(spy) {
   console.log("HELLO")
 }
 
 function logWhisper(spy) {
   console.log("hello")
+}
+
+function logLove(spy) {
+  console.log("I love you, Grandma.")
 }
 
 function sayHiToGrandma(whisper) {
@@ -34,6 +42,6 @@ function sayHiToGrandma(shout) {
   return "YES INDEED!"
 }
 
-function sayHiTroGrandma("I love you, Grandma.") {
+function sayHiTroGrandma(love) {
   return "I love you, too."
 }
