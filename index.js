@@ -30,7 +30,7 @@ function sayHiToGrandma(string) {
   console.log("hello")
   console.log("HELLO")
   console.log("I love you, Grandma.")
-  
+
   if("hello") {
     return "I can\'t hear you!"
   } else if ("HELLO") {
