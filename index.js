@@ -27,14 +27,18 @@ function logWhisper(spy) {
 }
 
 function sayHiToGrandma(string) {
-  console.log("hello")
-  if(lowercase) {
-    return "I can\'t hear you!"
-} else if(uppercase) {
-    return "YES INDEED!"
-} else if("I love you, Grandma.") {
-    return "I love you, too."
-} else {
-    return nothing
+  switch (string.type)
+  {
+    case 'hello':
+     return "I can\'t hear you!";
+     
+    case 'HELLO':
+     return "YES INDEED!";
+
+    case 'I love you, Grandma.':
+     return "I love you, too.";
+
+    default:
+     return ();
 }
 }
