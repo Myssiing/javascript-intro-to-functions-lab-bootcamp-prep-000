@@ -19,7 +19,7 @@ function whisper(string) {
 }
 
 function logShout(spy) {
-  console.log()
+  console.log("HELLO")
 }
 
 function logWhisper(string) {
