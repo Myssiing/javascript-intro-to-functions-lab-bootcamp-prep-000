@@ -22,8 +22,8 @@ function logShout(spy) {
   console.log("HELLO")
 }
 
-function logWhisper(string) {
-
+function logWhisper(spy) {
+  console.log("hello")
 }
 
 function sayHiToGrandma(string) {
