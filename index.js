@@ -27,10 +27,10 @@ function logWhisper(spy) {
 }
 
 function sayHiToGrandma() {
-  if(logShout) {
+  if(lowercase) {
     "I can\'t hear you!"
   }
-  else if(logWhisper) {
+  else if(uppercase) {
     "YES INDEED!"
   }
   else if("I love you, Grandma.") {
