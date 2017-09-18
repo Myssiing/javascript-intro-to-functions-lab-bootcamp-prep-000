@@ -26,15 +26,15 @@ function logWhisper(spy) {
   console.log("hello")
 }
 
-function sayHiToGrandma(spy) {
+function sayHiToGrandma(string) {
   if("hello") {
-    "I can\'t hear you!"
+    return "I can\'t hear you!"
   }
   else if("HELLO") {
-    "YES INDEED!"
+    return "YES INDEED!"
   }
   else if("I love you, Grandma.") {
-    "I love you, too."
+    return "I love you, too."
   }
   else {
 
