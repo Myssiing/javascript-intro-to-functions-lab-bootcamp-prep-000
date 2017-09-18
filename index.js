@@ -34,14 +34,12 @@ function logLove(spy) {
   console.log("I love you, Grandma.")
 }
 
-function sayHiToGrandma(whisper) {
-  return "I can\'t hear you!"
+function sayHiToGrandma(string) {
+  if (whisper) {
+    return "I can\'t hear you!";
+} else if (shout) {
+    return "YES INDEED!";
+} else if (love) {
+    return "I love you, too.";
 }
-
-function sayHiToGrandma(shout) {
-  return "YES INDEED!"
-}
-
-function sayHiTroGrandma(love) {
-  return "I love you, too."
 }
