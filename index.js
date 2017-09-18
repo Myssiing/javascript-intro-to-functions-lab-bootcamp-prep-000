@@ -30,9 +30,10 @@ function sayHiToGrandma(string) {
   console.log("hello")
   console.log("HELLO")
   console.log("I love you, Grandma.")
-  if(lowercase) {
+  
+  if("hello") {
     return "I can\'t hear you!"
-  } else if (uppercase) {
+  } else if ("HELLO") {
     return "YES INDEED!"
   } else if ("I love you, Grandma.") {
     return "I love you, too."
