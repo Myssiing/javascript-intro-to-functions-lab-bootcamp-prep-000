@@ -36,4 +36,7 @@ function sayHiToGrandma(spy) {
   else if("I love you, Grandma.") {
     "I love you, too."
   }
+  else {
+    
+  }
 }
