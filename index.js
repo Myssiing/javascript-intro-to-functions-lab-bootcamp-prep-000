@@ -26,6 +26,14 @@ function logWhisper(spy) {
   console.log("hello")
 }
 
-function sayHiToGrandma(string) {
-
+function sayHiToGrandma() {
+  if(logShout) {
+    "I can\'t hear you!"
+  }
+  else if(logWhisper) {
+    "YES INDEED!"
+  }
+  else if("I love you, Grandma.") {
+    "I love you, too."
+  }
 }
