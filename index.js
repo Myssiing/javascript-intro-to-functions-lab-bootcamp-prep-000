@@ -29,7 +29,7 @@ function logWhisper(spy) {
 function sayHiToGrandma(string) {
   console.log()
   if(lowercase) {
-    return "I can\'t hear you!"
+    console.log("I can\'t hear you!")
 } else if(uppercase) {
     return "YES INDEED!"
 } else if("I love you, Grandma.") {
